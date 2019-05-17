@@ -1,10 +1,10 @@
 # nimedlib
 
-A Nim wrapper for the (Edlib)[https://github.com/Martinsos/edlib] library.
+A Nim wrapper for the [Edlib](https://github.com/Martinsos/edlib) library.
 
 ## Synopsis
 
-Edlib is an awesome library for doing non-affine-gap alignments. The venerable lh3 calls it (very fast)[https://github.com/lh3/ksw2#alternative-libraries]. I'm sure there is some smoothing to be done to make this more ergonimic (sic).
+Edlib is an awesome library for doing non-affine-gap alignments. The venerable lh3 calls it [very fast](https://github.com/lh3/ksw2#alternative-libraries). I'm sure there is some smoothing to be done to make this more ergonimic (sic).
 
 ## Install
 
@@ -40,4 +40,6 @@ Run with
 ```bash
 nim cpp -r align_test.nim
 ```
+## Notes to future self
 
+This was built with nimterop. It was very slick once I realized i needed to compile the nim programs that use the library with cpp. I initially started with a versino using nimgen, which can be found in the inital commit, and works if you run with cpp. 10/10, nim binding to C is a pleasure.
