@@ -17,10 +17,3 @@ static:
 cIncludeDir(incl)
 cCompile(src/"edlib.cpp", "cpp")
 cImport incl/"edlib.h" 
-
-#cImport(incl/"edlib.h")
-#cIncludeDir(incl)
-#cCompile(src/"edlib.cpp", mode="cpp")
-
-
-
